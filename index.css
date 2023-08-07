@@ -3,17 +3,21 @@
 *::before {
   box-sizing: border-box;
 }
+@font-face {
+  font-family: "BHelal";
+  src: url(./fonts/BHelal.woff) format("woff");
+}
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "BHelal", Tahoma, Geneva, Verdana, sans-serif;
   padding: 0;
   margin: 0;
 }
 nav h1 {
-  font-family: "Lobster Two", cursive;
   letter-spacing: 0.15rem;
   font-size: 2rem;
   margin: 0;
   padding: 1rem;
+  line-height: 1;
 }
 nav a {
   text-decoration: none;
@@ -73,8 +77,9 @@ nav .links a:hover::after {
   .icon {
     display: block;
     position: absolute;
-    right: 0;
-    top: 6px;
+    left: 0;
+    top: 0px;
+    height: 100%;
   }
   nav.responsive .links {
     display: block;
