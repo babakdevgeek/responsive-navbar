@@ -67,17 +67,19 @@ nav .links a:hover::after {
   .links {
     display: none;
   }
+  .icon span {
+    font-size: 1.8rem;
+  }
   .icon {
     display: block;
     position: absolute;
     right: 0;
-    top: 0;
+    top: 6px;
   }
   nav.responsive .links {
     display: block;
   }
-  nav.responsive .links a,
-  nav.responsive a:first-child {
+  nav.responsive .links a {
     display: block;
     border-bottom: 1px solid rgb(227, 228, 234);
   }
