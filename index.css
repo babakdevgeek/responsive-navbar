@@ -84,6 +84,9 @@ nav .links a:hover::after {
     top: 0px;
     height: 100%;
   }
+  nav.responsive .icon {
+    height: auto;
+  }
   nav.responsive .links {
     display: block;
   }
