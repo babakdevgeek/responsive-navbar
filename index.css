@@ -76,15 +76,16 @@ nav .links a:hover::after {
   nav.responsive .links {
     display: block;
   }
-  nav.responsive .links a {
+  nav.responsive .links a,
+  nav.responsive a:first-child {
     display: block;
+    border-bottom: 1px solid rgb(227, 228, 234);
   }
   nav.responsive {
     display: block;
     height: auto;
   }
-  nav.responsive a:first-child {
-    display: block;
-    float: none;
+  nav.responsive a::before {
+    transform: scaleX(0);
   }
 }
