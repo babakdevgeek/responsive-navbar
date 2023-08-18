@@ -67,6 +67,9 @@ nav .links a::after {
 nav .links a:hover::after {
   transform: scaleX(1);
 }
+.active {
+  background-color: #3c96f8;
+}
 @media screen and (max-width: 650px) {
   nav {
     position: relative;
@@ -83,10 +86,12 @@ nav .links a:hover::after {
     left: 0;
     top: 0px;
     height: 100%;
+    border: 0;
+    outline: 0;
+    background-color: rgb(223, 223, 146);
+    height: 64px;
   }
-  nav.responsive .icon {
-    height: auto;
-  }
+ 
   nav.responsive .links {
     display: block;
   }
